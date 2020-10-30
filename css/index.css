@@ -103,7 +103,7 @@ header nav a {
 
 .hero-image{
     width:100%;
-    height:15vh;
+    height:18vh;
     background-image:url('../img/jumbo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
@@ -112,7 +112,7 @@ header nav a {
 
   .hero-image2{
     width:100%;
-    height:15vh;
+    height:18vh;
     background-image:url('../img/jumbo-about.png');
     background-repeat: no-repeat;
     background-size: cover;
@@ -136,6 +136,18 @@ header nav a {
     padding-bottom: 20px;  
 }
 
+.abinfo{
+    display:flex;
+    justify-content: flex-start;
+    padding:3%;
+    margin:1%;
+    flex-wrap: wrap;
+    border-bottom: 1px dashed black;
+}
+
+.abinfo h2{
+    margin-bottom:2%;
+}
 /*middle content*/
 
 .middle-content {
@@ -205,6 +217,44 @@ header nav a {
     background-color: dodgerblue;
 }
 
+/*about page content*/
+
+.gallery{
+    display: flex;
+    justify-content: space-between;
+    flex-flow:wrap row;
+    margin-top:4%;
+}
+
+.gallery div{
+    width: 46%;
+    margin-bottom:3%;
+    border-bottom:dashed 1px black;
+}
+
+.gallery div h3{
+    margin:2% 0%;
+}
+
+.gallery div p{
+    margin-bottom:2%;
+}
+
+.learn{
+    display: inline-block;
+    border:2px solid black;
+    border-radius: 10px;
+    text-align:center;
+    text-decoration: none;
+    color:black;
+    padding:3%;
+    width:35%;
+    margin-bottom:4%;
+}
+
+.learn:hover{
+    background-color: lightgoldenrodyellow;
+}
 
 /*bottom content*/
 
@@ -220,6 +270,18 @@ header nav a {
 
 .bottom-content .text-container:last-child {
     padding-right: 0;
+}
+
+.bottom{
+    display:flex;
+    justify-content: flex-start;
+    padding:4%;
+    margin:1%;
+    flex-wrap: wrap;
+}
+
+.bottom h2{
+    margin-bottom:2%;
 }
 
 /*footer*/
